@@ -1,10 +1,16 @@
 {
-  "name": "mi-proyecto-web",
+  "name": "mi-proyecto-netlify",
   "version": "1.0.0",
+  "description": "Proyecto básico para desplegar en Netlify",
+  "main": "index.html",
   "scripts": {
-    "test": "node tests/test.js"
+    "start": "serve .",
+    "build": "echo 'No build process needed for static site'"
   },
+  "keywords": ["netlify", "static", "website"],
+  "author": "Tu Nombre",
+  "license": "MIT",
   "devDependencies": {
-    "jest": "^29.0.0"
+    "serve": "^14.0.0"
   }
 }
